@@ -32,11 +32,9 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 1. Install dependent packages
 
     ```bash
-    # Install basicsr - https://github.com/xinntao/BasicSR
     # We use BasicSR for both training and inference
     pip install basicsr
-
-    # Install facexlib - https://github.com/xinntao/facexlib
+    
     # We use face detection and face restoration helper in the facexlib package
     pip install facexlib
 
